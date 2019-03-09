@@ -1,0 +1,291 @@
+@font-face{
+
+font-family: 'Aller';
+
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body, html {
+	min-width: 1400px;
+	min-height: 2341px;
+	margin: 0;
+	padding: 0;
+	font-family: "Aller", "Arial", sans-serif;
+    font-weight: 400;
+}
+body {
+	color: #fff;
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.main-header {
+	background-color: #242424;
+	min-height: 45px;
+}
+.main-logo-link {
+	width: 660px;
+	min-height: 45px;
+	float: left;
+}
+.user-registration {
+	width: 180px;
+	min-height: 45px;
+	float: right;
+}
+.main-navigation-list li {
+	display: inline-block;
+
+}
+.main-logo-link a {
+	margin: 0;
+	padding: 0;
+
+}
+.main-logo-link img {
+	padding-top: 12px;
+}
+.layermenu {
+	background-color: #ffffff;
+}
+.main-navigation {
+	
+	float: left;
+	width: 700px;
+	min-height: 60px;
+}
+.user-block {
+	float: right;
+	width: 180px;		
+}
+.userblockposition-wishlist {
+
+}
+.userblockposition-basket {
+
+}
+.slide {
+	color: #fff;
+	display: inline-block;
+	min-height: 90px;
+	width: 180px;
+	text-align: center;
+}
+.ground-color {
+	display: block;
+	min-height: 90px;
+	background-color: #2e2e2e;
+}
+.slider {
+}
+.slide-text {
+	width: 300px;
+	padding-left: 30px;
+}
+.site-wrapper {
+
+	color: #fff;
+	min-width: 460px;
+    background-image: url("../img/womenandshoose.jpg");
+    background-repeat: no-repeat;
+}
+.site-back1 {
+	background-color: #2e2e2e;
+	display: inline-block;
+	min-width: 1400px;
+
+
+}
+.site-back2 {
+	color: #fff;
+	background-color: #ebe7df;
+}
+.slide-link, .slide-title {
+	
+	color: #adadad;
+	text-decoration: none;
+}
+
+.slider-controls {
+
+}
+.banner {
+	height: 401px;
+	float: right;
+	margin-top: 60px;
+	color: #000;
+	margin-left: 600px;
+}
+
+.layerfooter {
+	background-color: #242424;
+}
+
+article h2 {
+	margin: 0;
+}
+.datatwo p {
+	margin-bottom: 0;
+}
+.specials {
+	display: inline-block;
+	margin: 0 auto;
+	min-height: 230px;
+	display: block;
+	background-color: #242424;
+	
+}
+.onsale {
+	float: left;
+	width: 300px;
+	min-height: 180px;
+	background-image: url("../img/shoosesimage.png");
+	background-repeat: no-repeat;
+}
+.special-offers {
+	float: left;
+	width: 300px;
+	min-height: 180px;
+	background-image: url("../img/specialoffers.png");
+	background-repeat: no-repeat;
+}
+.must-have {
+
+	float: right;
+	width: 300px;
+	min-height: 180px;
+	background-image: url("../img/musthave.png");
+	background-repeat: no-repeat;
+}
+.mini-gellery {
+	color: #000;
+	min-height: 767px;
+}
+.addon {
+	color: #000;
+}
+.btn-show {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.mini-gellery h3 {
+	margin: 0px;
+	padding: 30px 0;
+
+}
+.arrival-hit {
+	width: 260px; 
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+	margin-right: 20px; 
+}
+.bestseller-hit {
+	width: 260px; 
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+	margin-right: 20px; 
+}
+.arrival-hit:last-child, .bestseller-hit:last-child {	
+margin-right: 0px;
+}
+.arrival-hit > a, .bestseller-hit > a {
+	text-decoration: none;
+	color : #000;
+	font-size: 400;
+}
+.arrival-hit > img, .bestseller-hit > img {
+	font-size: 0px;
+}
+.price, .sale-marker, .stock-marker {
+	display: inline-block;
+	margin-bottom: 0;
+	position: absolute;
+}
+.addon-first {
+	width: 220px;
+	float: left;
+	background-color: #dfdbd4;
+}
+.addon-second {
+	width: 220px;
+	float: left;
+	background-color: #dfdbd4;
+}
+.addon-news {
+	width: 460px;
+	float: right;
+	background-color: #dfdbd4;
+}
+footer {
+	min-height: 454px;
+	color: #929292;
+}
+.text-widget {
+	width: 300px;
+	float: left;
+
+
+}
+.twitter-widget {
+	width: 260px;
+	float: left;
+}
+.flickr-widget {
+	width: 300px;
+	float: right;
+}
+.prefooter {
+	padding: 30px;
+}
+.newsletter {
+	width: 250px;
+	float: left;
+}
+.social-space {
+	width: 280px;
+	float: 	right;		
+}
+.footer-main {
+	min-height: 112px; 	
+}
+.copyright {
+	color: #929292;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+	display: block;
+		width: 300px;
+		float: 	left;			
+}
+.copyright p {
+	margin: 0;	
+	padding: 0;	
+}
+.breadcrumbs {
+	float: 	right;
+	width: 340px;	
+}
+.breadcrumbs li {
+	text-decoration: none;
+	display: inline;
+	list-style-type: none;
+	}
+ul.breadcrumbs {
+	margin: 0;	
+	padding: 0;	
+}
+.breadcrumbs a {
+	color: #929292;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}

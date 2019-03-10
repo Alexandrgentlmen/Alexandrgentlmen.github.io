@@ -139,7 +139,7 @@ h1 {
 	min-height: 60px;
 	min-width: 180px;
 	text-align: center;
-	margin-right: 6px;
+	margin-right: 5px;
 }
 .slide:last-child {
 	margin-right: 0px;
@@ -156,7 +156,6 @@ a.slide-title:hover, p.link-small:hover {
 	color: #eeeeee;
 }
 .slide-title p {
-
 	padding-bottom: 6px;
 	margin: 0;
 	font-size: 18px;
@@ -174,8 +173,7 @@ a.slide-title:hover, p.link-small:hover {
 	padding-left: 29px;
 }
 .site-wrapper {
-
-	color: #fff;
+	color: #eeece8;
 	min-width: 460px;
 	background-image: url("../img/womenandshoose.jpg");
 	background-repeat: no-repeat;
@@ -183,9 +181,6 @@ a.slide-title:hover, p.link-small:hover {
 .site-back1 {
 	background-color: #2e2e2e;
 	display: inline-block;
-	min-width: 1400px;
-
-
 }
 .site-back2 {
 	color: #fff;

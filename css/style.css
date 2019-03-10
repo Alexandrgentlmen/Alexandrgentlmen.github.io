@@ -179,8 +179,10 @@ a.slide-title:hover, p.link-small:hover {
 	background-repeat: no-repeat;
 }
 .site-back1 {
+	background-size: 100%;
 	background-color: #2e2e2e;
 	display: inline-block;
+	min-width: 1400px;
 }
 .site-back2 {
 	color: #fff;

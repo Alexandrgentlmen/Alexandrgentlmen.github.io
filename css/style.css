@@ -358,10 +358,13 @@ section.bestseller-hit {
 	height: 49px;
 }
 .price-board > a, .price-board > a {
+	display: inline-block;
+	
 	text-decoration: none;
 	color : #000;
 	padding: 0;
 	margin: 0;
+	padding-top: 14px;
 }
 .arrival-hit > img, .bestseller-hit > img {
 	padding: 0;
@@ -379,19 +382,45 @@ section.bestseller-hit {
 div.stock-marker {
 	display: inline-block;
 	min-width: 50px;
-	right: 33px;
-	top: 22px;
+	min-height: 31px;
+	right: -8px;
+	top: 23px;
+	text-transform: uppercase;
+	background-color: #f27e4b;
+	font-size: 13px;
+	color: #fff;
+	padding: 18px 9px;
+	line-height: 15px;
+	font-weight: 400;
+	margin-top: -22px;
 }
 .sale-marker {
-	right: 33px;
+	text-transform: uppercase;
+	background-color: #242424;
+	font-size: 13px;
+	color: #fff;
+	padding: 21px 7px;
+	line-height: 25px;
+	font-weight: 400;
+	right: 28px;
 	top: 22px;
+	margin-top: -22px;
 }
 .price {
-	left: 16px;
+	box-sizing: border-box;
+	left: 12px;
+	top: -18px;
 }
 p.price {
+	position: absolute;
+	display: inline-block;
+	padding: 27px 7px;
+	color: #fff;
+	background-color: #57c5a0;
+	font-size: 13px;
 	margin: 0;
-	padding: 0;
+	height: 67px;
+	width: 69px;
 }
 .addon {
 	color: #000;

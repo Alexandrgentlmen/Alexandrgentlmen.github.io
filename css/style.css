@@ -156,7 +156,7 @@ a.slide-title:hover, p.link-small:hover {
 	color: #eeeeee;
 }
 .slide-title p {
-	padding-bottom: 6px;
+	padding-bottom: 5px;
 	margin: 0;
 	font-size: 18px;
 }
@@ -283,9 +283,14 @@ a.get-choise {
 	border-bottom: 1px solid #bcb5a7;
 	padding-bottom: 4px; 
 }
-.btn-show {
-	margin: 0;
-	padding: 0;
+a.btn-show {
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 25px;
+	color: #bcb5a7;
+	margin-top: 29px;
+	padding: 2px 19px 1px 20px;
+	border: 1px solid #bcb5a7;
 	float: right;
 	display: inline-block;
 	
@@ -364,7 +369,7 @@ section.bestseller-hit {
 	margin: 0;
 	font-size: 0px;
 	min-height: 220px;
-	border-bottom: 1px solid #eeeeee;
+	border-bottom: 1px solid #cccccc;
 }
 .price, .sale-marker, .stock-marker {
 	display: inline-block;
@@ -524,20 +529,27 @@ article.twitter-widget {
 .prefooter {
 	padding: 48px 30px 30px 42px;
 }
-.newsletter {
-	width: 250px;
+.footer-main .newsletter {
+	font-style: italic;
+	color: #7d7d7d;
+	font-size: 12px;
+	line-height: 18px;
+	width: 190px;
 	float: left;
+	padding: 9px 12px;
+	margin-top: 40px;
+	margin-left: 40px; 
+	background-color: #2e2e2e;
 }
 .social-space {
 	width: 280px;
 	float: 	right;		
 }
 .footer-main {
-	min-height: 112px; 	
+	min-height: 120px; 	
 }
 div.footerlayer {
 	border-top: 1px solid #1c1c1c;
-	z-index: 10;
 }
 div.footerlayertwo {
 	background-color: #2e2e2e;
@@ -549,15 +561,17 @@ div.footerlayertwo {
 	font-weight: 400;
 	display: block;
 	width: 300px;
-	float: 	left;			
+	float: 	left;
+	margin-top: 25px;			
 }
 .copyright p {
 	margin: 0;	
+	margin-bottom: 2px;
 	padding: 0;	
 }
 .breadcrumbs {
-	float: 	right;
-	width: 340px;	
+	
+	width: 330px;	
 }
 .breadcrumbs li {
 	text-decoration: none;
@@ -565,7 +579,10 @@ div.footerlayertwo {
 	list-style-type: none;
 }
 ul.breadcrumbs {
-	margin: 0;	
+	float: 	right;
+	margin: 0;
+	margin-top: 33px;
+	margin-left: 8px;	
 	padding: 0;	
 }
 .breadcrumbs a {

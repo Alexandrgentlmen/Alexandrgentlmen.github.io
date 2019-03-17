@@ -50,7 +50,6 @@ ul.main-navigation-list {
 	margin: 0;
 }
 .main-navigation-item a {
-	
 	padding: 21px 18px 21px 23px;
 	display: block;
 	text-decoration: none;
@@ -62,11 +61,62 @@ ul.main-navigation-list {
 	border-right: 1px solid #eeeeee;
 }
 .userblockposition-login {
+	border-right: 1px solid #383838;
+	border-left: 1px solid #383838;
 	display: inline-block;
-	padding: 16px;
-	margin-left: 46px;
+	padding: 17px 16px 16px 21px;
+	width: 102px;
+	height: 12px;
+	margin-left: 40px;
 	color: #eeeeee;
 	font-size: 11px;
+}
+.icon-search {
+	position: absolute;
+	width: 17px;
+    height: 17px;
+    top: 15px;
+    left: 3px;
+    background-image: url("../img/searchicon.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    display: block;
+    opacity: 1;
+}
+a.wishlist {
+	text-decoration: none;
+	color: #fff;
+	background-color: #adadad;
+	font-size: 11px;
+	font-weight: 500;
+	font-style: 
+	line-height: 25px;
+	padding: 4px;
+	padding-left: 3px;
+	margin-top: 21px;
+	margin-left: 46px;	
+	border-radius: 5px;
+	text-align: center;
+	display: block;
+	
+}
+a.basket-link {
+	width: 13px;
+	height: 12px;	
+
+	padding: 4px;
+	padding-left: 3px;	
+	border-radius: 4px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #57c5a0;
+	font-size: 11px;
+	font-weight: 500;
+}
+a.search {
+	box-sizing: border-box;
 }
 a.login  {
 	color: #7e7e7e;
@@ -76,15 +126,27 @@ a.login  {
 .login span {
 	text-transform: uppercase;
 }
+.userblockposition-search {
+	position: relative;
+}
 .userblockposition-wishlist {
-	padding: 20px;
+	width: 66px;
+	height: 60px;
+	border-left: 1px solid #cccccc;
 	display: inline-block;
 	
 }
 .userblockposition-basket {
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
 	display: inline-block;
 	float: right;
-	padding: 20px;
+	width: 25px;
+	height: 20px;
+	padding: 19px;
+	padding-top: 21px;
+	padding-left: 46px;
+
 }
 h1 {
 	line-height: 40px;
@@ -123,14 +185,9 @@ h1 {
 	min-height: 60px;
 }
 .user-block {
+	margin-right: -1px;
 	float: right;
-	width: 150px;		
-}
-.userblockposition-wishlist {
-
-}
-.userblockposition-basket {
-
+	width: 182px;		
 }
 .slide {
 	display: inline-block;

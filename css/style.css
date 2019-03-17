@@ -51,7 +51,7 @@ ul.main-navigation-list {
 }
 .main-navigation-item a {
 	
-	padding: 21px 19px 21px 22px;
+	padding: 21px 18px 21px 23px;
 	display: block;
 	text-decoration: none;
 	color: #242424;
@@ -133,29 +133,42 @@ h1 {
 
 }
 .slide {
-	color: #fff;
 	display: inline-block;
 	margin-top: 30px;
 	min-height: 60px;
-	min-width: 180px;
+	min-width: 184px;
 	text-align: center;
-	margin-right: 5px;
+	
 }
 .slide:last-child {
 	margin-right: 0px;
 }
-.slide-title {
+div#slide3.slide {
+	padding-left: 3px;
+}
+div#slide4.slide {
+	padding-left: 1px;
+}
+.slide-title a {
+	width: 170px;
+	color: #929292;
 	display: block;
+}
+a.slide-title:hover {
+	color: #fff;
+}
+.link-small:hover {
+	color: #fff;
 }
 .slide-title p.link-small {
 	font-size: 12px;
 	margin: 0;
 	color: #adadad;
 }
-a.slide-title:hover, p.link-small:hover {
-	color: #eeeeee;
-}
+
 .slide-title p {
+	display: block;
+	min-width: 119px;
 	padding-bottom: 5px;
 	margin: 0;
 	font-size: 18px;
@@ -188,7 +201,7 @@ a.slide-title:hover, p.link-small:hover {
 	background-color: #ebe7df;
 }
 .slide-link, .slide-title {
-	
+	display: inline-block;
 	color: #adadad;
 	text-decoration: none;
 }
@@ -197,6 +210,7 @@ a.slide-title:hover, p.link-small:hover {
 
 }
 .banner {
+	position: relative;
 	height: 401px;
 	float: right;
 	margin-top: 60px;
@@ -410,6 +424,13 @@ div.stock-marker {
 	box-sizing: border-box;
 	left: 12px;
 	top: -18px;
+}
+.banner p.price {
+	padding: 21px 9px;
+	height: 67px;
+	width: 69px;
+	left: 30px;
+	top: 10px;
 }
 p.price {
 	position: absolute;

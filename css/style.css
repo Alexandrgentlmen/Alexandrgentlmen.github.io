@@ -132,7 +132,7 @@ a.login  {
 .userblockposition-wishlist {
 	width: 66px;
 	height: 60px;
-	border-left: 1px solid #cccccc;
+	border-left: 1px solid #ccc;
 	display: inline-block;
 	
 }
@@ -146,7 +146,6 @@ a.login  {
 	padding: 19px;
 	padding-top: 21px;
 	padding-left: 46px;
-
 }
 h1 {
 	line-height: 40px;

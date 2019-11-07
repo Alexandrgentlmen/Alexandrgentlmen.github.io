@@ -488,7 +488,8 @@ section.bestseller-hit {
 	left: 91px;
 }
 a.icon-layer {
-	position: relative;
+	cursor: pointer;
+	position: absolute;
 	background-color: #fff;
 	width: 40px;
 	height: 40px;
@@ -511,8 +512,8 @@ a.icon-layer:last-child {
 
 .icon-board {
 	z-index: 2;
-	display: none;
-	position: absolute;
+	display: block;
+	position: relative;
 	width: 185px;
 	margin-left: 80px;
 	margin-right: 0px;
@@ -543,7 +544,7 @@ a.icon-layer:last-child {
 	display: inline-block;
 	background: url("../img/staricon.png") no-repeat;
     background-position: 12px 12px;
-    left: 24px;
+    left: 68px;
 }
 .icon-share {
 	text-align: center;
@@ -554,7 +555,7 @@ a.icon-layer:last-child {
 	display: inline-block;
 	background: url("../img/shareicon.png") no-repeat;
     background-position: 12px 12px;
-    left: 20px;
+    left: 110px;
 }
 .icon-basket {
 		text-align: center;
@@ -565,7 +566,7 @@ a.icon-layer:last-child {
 	display: inline-block;
 	background: url("../img/carticon.png") no-repeat;
     background-position: 12px 12px;
-    left: 16px;
+    left: 152px;
 }
 .arrival-hit > img, .bestseller-hit > img {
 	padding: 0;

@@ -511,7 +511,7 @@ a.icon-layer:last-child {
 
 .icon-board {
 	z-index: 2;
-	display: block;
+	display: none;
 	position: absolute;
 	width: 185px;
 	margin-left: 80px;

@@ -103,7 +103,6 @@ a.wishlist {
 a.basket-link {
 	width: 13px;
 	height: 12px;	
-
 	padding: 4px;
 	padding-left: 3px;	
 	border-radius: 4px;
@@ -134,9 +133,11 @@ a.login  {
 	height: 60px;
 	border-left: 1px solid #ccc;
 	display: inline-block;
+	position: relative;
 	
 }
 .userblockposition-basket {
+	position: relative;
 	border-right: 1px solid #ccc;
 	border-left: 1px solid #ccc;
 	display: inline-block;
@@ -147,6 +148,41 @@ a.login  {
 	padding-top: 21px;
 	padding-left: 46px;
 }
+.userblockposition-basket::before {
+	content: "";
+    position: absolute;
+    background: url("../img/carticon.png") no-repeat;
+    background-position: 0px 0px;
+    background-color: transparent;
+    width: 19px;
+    height: 16px;
+    top: 22px;
+    right: 49px;
+}
+/**
+.userblockposition-basket::before {
+	content: "";
+    position: absolute;
+    background: url("../img/carticonget.png") no-repeat;
+    background-position: 0px 0px;
+    background-color: transparent;
+    width: 19px;
+    height: 16px;
+    top: 25px;
+    right: 49px;
+}
+**/
+.userblockposition-wishlist::before {
+	content: "";
+    position: absolute;
+    background: url("../img/staricon.png") no-repeat;
+    background-position: 0px 0px;
+    background-color: transparent;
+    width: 19px;
+    height: 16px;
+    top: 23px;
+    right: 25px;
+}
 h1 {
 	line-height: 40px;
 	padding: 0;
@@ -156,7 +192,7 @@ h1 {
 	font-weight: 300;
 }
 .banner p {
-	line-height: 25px;
+	line-height: 26px;
 	margin: 0;
 	font-size: 20px;
 	font-family: "Aller Light", "Arial", sans-serif;
@@ -346,7 +382,7 @@ a.get-choise {
 	color: #000;
 	min-height: 761px;
 	border-bottom: 1px solid #bcb5a7;
-	padding-bottom: 4px; 
+	padding-bottom: 5px; 
 }
 a.btn-show {
 	text-decoration: none;
@@ -354,7 +390,7 @@ a.btn-show {
 	line-height: 25px;
 	color: #bcb5a7;
 	margin-top: 29px;
-	padding: 2px 19px 1px 20px;
+	padding: 2px 19px 1px 22px;
 	border: 1px solid #bcb5a7;
 	float: right;
 	display: inline-block;
@@ -369,10 +405,13 @@ a.btn-show {
 	font-weight: 300;
 
 }
+.best-sellers {
+	margin-top: 1px;
+}
 section.new-arrivals {
 	display: block;
 	width: 940px;
-	padding-bottom: 7px;
+	padding-bottom: 3px;
 
 }
 section.bestseller-hit {
@@ -403,7 +442,7 @@ section.bestseller-hit {
 }
 .bestseller-hit {
 	position: relative;
-	min-height: 250px;
+	height: 245px;
 	width: 260px; 
 	display: inline-block;
 	font-size: 16px;
@@ -420,16 +459,113 @@ section.bestseller-hit {
 	position: relative;
 	display: block;
 	width: 300px;
-	height: 49px;
+	height: 48px;
 }
 .price-board > a, .price-board > a {
 	display: inline-block;
-	
+	font-size: 19px;
+	line-height: 18px;
 	text-decoration: none;
 	color : #000;
 	padding: 0;
 	margin: 0;
-	padding-top: 14px;
+	padding-top: 13px;
+	position: absolute;
+	top: 0px;
+	left: 91px;
+}
+.price-board p:last-child {
+	margin-top: 0;
+	display: inline-block;
+	font-size: 19px;
+	line-height: 18px;
+	color : #000;
+	padding: 0;
+	margin: 0;
+	padding-top: 13px;
+	position: absolute;
+	top: 0px;
+	left: 91px;
+}
+a.icon-layer {
+	position: relative;
+	background-color: #fff;
+	width: 40px;
+	height: 40px;
+	margin-right: 2px;
+	top: 4px;
+}
+a.icon-layer:last-child {
+	margin-right: 0px;
+}
+.slider-board {
+	z-index: 2;
+	position: relative;
+	width: 200px;
+	margin-left: 48px;
+	height: 48px;
+	left: -75px;
+	top: 8px;
+	background-color: transparent;
+}
+
+.icon-board {
+	z-index: 2;
+	display: none;
+	position: absolute;
+	width: 185px;
+	margin-left: 80px;
+	margin-right: 0px;
+	height: 48px;
+	left: 0px;
+	background-color: #fff;
+}
+.icon-board div:hover {
+	left: 0px;
+}
+.icon-getsee {
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url("../img/eyeicon.png") no-repeat;
+    background-position: 12px 12px;
+    left: 28px;
+}
+.icon-star {
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url("../img/staricon.png") no-repeat;
+    background-position: 12px 12px;
+    left: 24px;
+}
+.icon-share {
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url("../img/shareicon.png") no-repeat;
+    background-position: 12px 12px;
+    left: 20px;
+}
+.icon-basket {
+		text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url("../img/carticon.png") no-repeat;
+    background-position: 12px 12px;
+    left: 16px;
 }
 .arrival-hit > img, .bestseller-hit > img {
 	padding: 0;
@@ -452,12 +588,12 @@ div.stock-marker {
 	top: 23px;
 	text-transform: uppercase;
 	background-color: #f27e4b;
-	font-size: 13px;
+	font-size: 12px;
 	color: #fff;
 	padding: 18px 9px;
 	line-height: 15px;
 	font-weight: 400;
-	margin-top: -22px;
+	margin-top: -23px;
 }
 .sale-marker {
 	text-transform: uppercase;
@@ -487,21 +623,21 @@ div.stock-marker {
 p.price {
 	position: absolute;
 	display: inline-block;
-	padding: 27px 7px;
+	padding: 26px 7px;
 	color: #fff;
 	background-color: #57c5a0;
 	font-size: 13px;
 	margin: 0;
 	height: 67px;
-	width: 69px;
+	width: 68px;
 }
 .addon {
 	color: #000;
-	padding-top: 25px;
+	padding-top: 26px;
 	padding-bottom: 23px;
 }
 .addon h2 {
-	padding-top: 6px;
+	padding-top: 5px;
 	font-size: 14px;
 	text-transform: uppercase;
 
@@ -513,7 +649,7 @@ p.price {
 	width: 180px;
 }
 .addon-first {
-	padding: 25px 10px 20px 14px;
+	padding: 25px 10px 19px 14px;
 	margin-right: 20px;
 	min-height: 140px;
 	line-height: 16px;
@@ -536,7 +672,8 @@ p.price {
 	margin-bottom: 0px;
 }
 .addon-second p:last-child {
-	margin-top: 7px;
+	margin-top: 6px;
+	margin-left: 4px;
 }
 .addon-news {
 	padding: 25px 15px 20px 17px;
@@ -547,12 +684,43 @@ p.price {
 	background-color: #dfdbd4;
 }
 div.datatwo, div.dataone {
+	position: relative;
 	display: block;
 	padding-left: 45px;
 	min-width: 354px;
 }
 div.dataone {
-	padding-top: 23px;
+	padding-top: 21px;
+}
+div.date {
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 15px;
+	width: 36px;
+	height: 36px;
+	content: "";
+    position: absolute;
+    background-color: #57c5a0;
+	z-index: 2;
+    top: 19px;
+    left: 0px;
+}
+.addon .datatwo .date p,.addon .dataone .date p {
+	line-height: 11px;
+	padding-top: 7px;
+	font-size: 10px; 
+	font-weight: 500; 
+}
+.datatwo div.date {
+	width: 36px;
+	height: 36px;
+	content: "";
+    position: absolute;
+    background-color: #57c5a0;
+	z-index: 2;
+    top: -2px;
+    left: 0px;
 }
 .dataone b, .datatwo b {
 	font-size: 14px;
@@ -563,7 +731,7 @@ div.dataone {
 	margin: 0;
 }
 .addon .dataone p:last-child {
-	padding-bottom: 18px;
+	padding-bottom: 17px;
 } 
 footer {
 	min-height: 454px;
@@ -604,14 +772,14 @@ article.twitter-widget {
 	margin-right: 17px;
 }
 .twitter-widget p {
-	margin-bottom: -2px;
-	margin-top: 10px; 
+	margin-bottom: 0px;
+	margin-top: 8px; 
 }
 .twitter-widget span {
 	color: #57c5a0;
 }
 .flickrs {
-	padding-right: 4px;
+	padding-right: 5px;
 	padding-bottom: 9px;
 }
 .flickrs {
@@ -632,29 +800,103 @@ article.twitter-widget {
 	padding: 48px 30px 30px 42px;
 }
 .footer-main .newsletter {
+	position: relative;
 	font-style: italic;
 	color: #7d7d7d;
 	font-size: 12px;
 	line-height: 18px;
 	width: 190px;
 	float: left;
-	padding: 9px 12px;
-	margin-top: 40px;
+	padding: 8px 12px;
+	margin-top: 37px;
 	margin-left: 40px; 
 	background-color: #2e2e2e;
 }
-.social-space {
-	width: 280px;
+.email-input {
+	color: #7d7d7d;
+	font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    display: inline-block;
+    width: 141px;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+.footer-main > .newsletter > input.btn-email {
+	color: #7d7d7d;
+	position: absolute;
+	top: 0px;
+	right:-36px;
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	background-color: #7d7d7d; 
+	border: none;
+	font-size: 0px;
+}
+
+.newsletter::before {
+    content: "";
+    position: absolute;
+    background: url("../img/arrowright.png") no-repeat;
+    background-position: 0px 0px;
+    background-color: transparent;
+    width: 9px;
+    height: 15px;
+	z-index: 2;
+    top: 13px;
+    right: -24px;
+}
+.social-footer {
+	margin-top: 37px;
+	width: 252px;
+	height: 40px;
 	float: 	right;		
 }
+.social-btn {
+	background-color: transparent;
+    background-image: url("../img/iconsocial.png");
+    background-repeat: no-repeat;
+  
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: top;
+}
+a.social-btn-fb {
+	margin-right: 4px;
+	background-color: #2e2e2e;
+    background-position: 14px 8px;
+}
+a.social-btn-twit {
+	margin-right: 5px;
+	background-color: #2e2e2e;
+    background-position: -32px 8px;
+}
+a.social-btn-gm {
+	margin-right: 3px;
+	background-color: #2e2e2e;
+    background-position: -75px 8px;
+}
+a.social-btn-ink {
+	margin-right: 5px;
+	background-color: #2e2e2e;
+    background-position: -119px 8px;
+}
+a.social-btn-dotdot {
+	background-color: #2e2e2e;
+    background-position: -163px 8px;
+}
 .footer-main {
-	min-height: 120px; 	
+	min-height: 118px; 	
 }
 div.footerlayer {
 	border-top: 1px solid #1c1c1c;
 }
 div.footerlayertwo {
 	background-color: #2e2e2e;
+	height: 89px;
 }
 .copyright {
 	color: #929292;

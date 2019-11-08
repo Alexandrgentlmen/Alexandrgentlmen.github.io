@@ -453,6 +453,7 @@ section.bestseller-hit {
 	margin-right: 0px;
 }
 .price-board {
+	cursor: pointer;
 	padding: 0;
 	margin: 0;
 	background-color: #fff;
@@ -511,6 +512,7 @@ a.icon-layer:last-child {
 }
 
 .icon-board {
+
 	z-index: 2;
 	display: block;
 	position: relative;

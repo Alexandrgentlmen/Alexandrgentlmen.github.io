@@ -497,6 +497,17 @@ a.icon-layer {
 	margin-right: 2px;
 	top: 4px;
 }
+a.icon-basket:hover {
+	display: inline-block;
+	text-align: center;
+    vertical-align: middle;
+    background-position: 12px 12px;
+    left: 152px;
+	background: url("../img/Carticon2.png") no-repeat; 
+	background-color: #fff;
+	top: 4px;
+	
+}
 a.icon-layer:last-child {
 	margin-right: 0px;
 }

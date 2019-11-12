@@ -510,9 +510,15 @@ a.icon-layer:last-child {
 	top: 8px;
 	background-color: transparent;
 }
-
+.text-price {
+	display: none;
+}
+.wrapper-icon {
+	width: 300px;
+	height: 38px;
+}
 .icon-board {
-
+	
 	z-index: 2;
 	display: block;
 	position: relative;

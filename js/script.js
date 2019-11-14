@@ -1,11 +1,12 @@
 document.getElementById("close-board").onmouseover = function(event) {
 	var target = event.target;
 	if (target.className == 'price-board' || target.className == 'icon-board') {
-		var s = target.getElementsByClassName('icon-board');
+		var s = target.getElementsByClassName("icon-board");
 		closeMenu();
 		s[0].style.display='block';
 	}
 }
+
 document.getElementById("text-price").onmouseover = function(event) {
 	var target = event.target;
 	if (target.className == 'text-price') {
@@ -17,9 +18,9 @@ document.getElementById("text-price").onmouseover = function(event) {
 document.onmouseover=function(event) {
 	var target = event.target;
 	console.log(event.target);
-	if (target.className!='price-board' && target.className!='icon-board' && target.className!='text-price'){
+	if (target.className!='price-board'){
 		closeMenu(); 
-		openText();
+		closeText();
 	}
 }
 function closeMenu() {
@@ -31,9 +32,9 @@ function closeMenu() {
 }
 function closeText() {
 	var text = document.getElementsByClassName("text-price");
-	for (var i=0; i <text.length; i++) {
-		text[i].style.display="none";
-	}
+	
+		text.style.display="none";
+
 
 }
 function openText() {
